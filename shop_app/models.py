@@ -26,6 +26,8 @@ class Clerk(models.Model):
     def __str__(self):
         return self.first_name 
 
+
+        
 class Category(models.Model):
     category_name = models.CharField(max_length=100)
 

@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    return HttpResponse("Hello, this is local shop index page.")
+    return HttpResponse("Hello, this is local shop index page. Welcome!")
